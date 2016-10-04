@@ -1,0 +1,43 @@
+body {
+font-size: 11pt;
+}
+#header {
+background: none;
+border-bottom: 1px solid black;
+position: relative;
+}
+#header h1 {
+height: auto;
+background: none;
+color: black;
+margin: 0 0 7pt;
+}
+#header h1 a {
+display: inline;
+height: auto;
+width: auto;
+color: black;
+text-decoration: none;
+text-indent: 0;
+font-size: 15pt;
+}
+#header #top_bar, #top_search, #right_sidebar, #left_sidebar, #content a.print_page, #footer ul  {
+display: none;
+}
+#header #slogan {
+position: static;
+color: black;
+}
+#header #date {
+position: absolute;
+top: 0;
+right: 0;
+color: black;
+font-style: italic;
+font-size: 10pt;
+}
+#footer {
+border-top: 1px solid black;
+text-align: center;
+font-size: 10pt;
+}

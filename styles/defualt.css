@@ -1,0 +1,209 @@
+body {
+margin: 0;
+padding: 0;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+line-height: 1.35em;
+font-size: 80%;
+}
+table, td, tr, form {
+margin: 0;
+padding: 0;
+vertical-align: top;
+}
+/* content */
+#content {
+padding: 0 11px 8px 8px;
+}
+#content h2 {
+margin: 15px 3px 4px;
+padding: 0 0 4px 1px;
+font-size: 130%;
+color: #197D61;
+border-bottom: 1px solid #AAAAAA;
+}
+#content h3 {
+margin: 15px 3px 3px;
+padding: 0 0 4px 1px;
+font-size: 110%;
+color: #197D61;
+}
+#content h4 {
+margin: 10px 3px 4px;
+padding: 0 0 4px 1px;
+font-size: 100%;
+color: #197D61;
+}
+#content img.ralign {
+border: 0;
+float: right;
+padding: 4px 4px 4px 6px;
+}
+#content .image {
+float: right;
+margin: 4px 4px 6px 10px;
+background: #197D61;
+font-size: 80%;
+border: 1px solid #AAAAAA;
+}
+#content .image p {
+text-align: center;
+color: white;
+padding: 4px 0;
+margin: 0;
+}
+#content p {
+text-align: justify;
+padding: 0 4px;
+margin: 3px 0 10px;
+}
+#content table {
+width: 100%;
+}
+#content table th {
+background: #7D7D7D;
+color: white;
+padding: 3px;
+}
+#content table td {
+border-bottom: 1px solid #AAAAAA;
+padding: 3px;
+}
+#content a {
+color: #3D3D90;
+}
+#content a:hover {
+color: #197D61;
+}
+a img {
+border: none;
+vertical-align: middle;
+}
+#content a.print_page {
+display: block;
+width: 80px;
+font-size: 14px;
+padding: 3px 20px 3px 3px;
+background: url(../img/print-icon.jpg) no-repeat 80px 60%;
+text-decoration: none;
+border: 1px solid #AAAAAA;
+float: right;
+margin: 15px 0;
+clear: both;
+}
+#content a.print_page:hover {
+border-color: black;
+}
+#content ul, #content ol {
+margin-top: 4px;
+margin-bottom: 10px;
+}
+#content li {
+padding-bottom: 3px;
+}
+#header {
+background: #197d61;
+border-bottom: 4px solid #f7991d;
+position: relative;
+}
+#header p, #header h1, #header a {
+margin: 0;
+color: white;
+}
+#header h1 {
+height: 77px;
+background: url(../img/cyprusflag-logo.gif) no-repeat;
+color: #197D61;
+}
+#header h1 a {
+display: block;
+height: 90px;
+width: 382px;
+text-indent: -99999px;
+}
+#header #slogan {
+position: absolute;
+top: 53px;
+left: 17px;
+}
+#header #date {
+position: absolute;
+display: block;
+top: 0;
+right: 0;
+padding-left: 20px;
+width: 245px;
+height: 26px;
+background: #197D61 url(../img/date_bg.gif) no-repeat;
+text-align: center;
+font-weight: bold;
+}
+#top_search {
+position: absolute;
+right: 10px;
+top: 50px;
+}
+input {
+font-size: 10px;
+}
+#main_body{
+margin: 0px 0 0px;
+}
+#left_sidebar {
+width: 200px;
+padding: 10px 3px;
+background: #feedd6;
+}
+#left_sidebar .sidebar_box {
+border: 1px solid #AAAAAA;
+border-bottom: none;
+margin-bottom: 10px;
+}
+#left_sidebar .sidebar_box h2 {
+font-size: 100%;
+margin: 0;
+background: #197D61;
+color: white;
+padding: 3px;
+}
+#left_sidebar .sidebar_box ul {
+padding: 0;
+margin: 0;
+}
+#left_sidebar .sidebar_box li {
+font-size: 89%;
+list-style: none;
+margin: 0;
+}
+#left_sidebar .sidebar_box li a {
+display: block;
+width: 190px;
+border-bottom: 1px solid #AAAAAA;
+color: black;
+text-decoration: none;
+padding: 4px 0 5px 8px;
+}
+#left_sidebar .sidebar_box li a:hover {
+background: #F7991D;
+}
+#right_sidebar {
+width: 122px;
+padding: 10px 3px;
+border-left: 1px solid #AAAAAA;
+}
+#footer {
+border-top: 1px solid #AAAAAA;
+text-align: center;
+font-size: 80%;
+}
+#footer ul {
+margin: 5px;
+padding: 0;
+list-style: none;
+}
+#footer ul li {
+display: inline;
+padding: 6px;
+}
+#footer ul li a {
+color: #AAAAAA;
+}
